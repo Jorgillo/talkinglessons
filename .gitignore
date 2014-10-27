@@ -1,0 +1,8 @@
+# Ignore configuration files that may contain sensitive information.
+httpdocs/sites/*/settings*.php
+httpdocs/sites/*/.sass-cache
+httpdocs/sites/*/.sass-cache/*
+# Ignore paths that contain user-generated content.
+httpdocs/sites/*/files
+httpdocs/sites/*/private
+backups

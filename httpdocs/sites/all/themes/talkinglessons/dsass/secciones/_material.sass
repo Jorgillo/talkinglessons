@@ -1,0 +1,111 @@
+.page-material
+	#main-content
+		.view-material
+			width: 75%
+			float: left
+			.view-header
+				font-size: 1.2rem
+			.view-content
+				margin: 20px 0 0
+			.views-row	
+				margin: 0 0 15px
+			.group-left
+				width: 35%
+				iframe
+					width: 100%
+					display: inline-block
+					height: auto
+			.group-right
+				width: 63%
+				margin: 0 0 0 2%
+				.field-name-body
+					font-size: 1.2rem
+				h2
+					a
+						color: $font_color_1
+						font-size: 1.3rem
+				.field-name-field-tags
+					width: 100%
+					display: inline-block
+					font-size: 1.2rem
+					.label-above
+						color: $font_color_2
+					a
+						color: $font_color_1
+						float: left
+						margin: 0 5px 0 0
+			.pager
+				width: auto
+				display: table
+				margin: 0 auto
+				border: 2px solid $bg_color_1
+				border-radius: 5px
+				li
+					float: left
+					color: $font_color_1
+					font-size: 1.1rem
+					padding: 0
+					&:hover
+						background: $bg_color_1
+					a
+						color: $font_color_1
+						display: block
+						padding: 2px 10px
+						&:hover
+							text-decoration: none
+							color: white
+					&.pager-current
+						background: $bg_color_1
+						color: white
+						padding: 2px 10px
+							
+					
+		#block-views-latest-material-block
+			float: right
+			width: 25%
+			margin: 0 -15px 0 1%
+			+box-sizing
+			.block-title
+				color: white
+				background: $bg_color_2
+				padding: 5px 20px
+			.view-content
+				.views-row
+					padding: 5px 20px
+					border-bottom: 1px solid $bg_color_2
+					a
+						color: $font_color_1	
+						display: block
+						font-size: 1rem
+						font-weight: bold
+//Nodo
+.node-type-articulo
+	#columns
+		.group-left
+			width: 45%
+			iframe, img
+				width: 100%
+			img
+				height: auto
+		.group-right
+			width: 53%
+			float: right
+			font-size: 1.2rem
+			.field-name-body
+				margin: 0 0 20px
+			.tags-wrapper
+				width: 100%
+				display: inline-block
+				.label-above
+					color: $font_color_2
+				ul
+					padding: 0
+					margin: 0
+					li 
+						float: left
+						margin: 0 10px 0 0
+						a
+							color: $font_color_1
+			.field-name-field-tags
+				.label-above
+					color: $font_color_2

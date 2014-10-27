@@ -1,0 +1,182 @@
+.page-cursos
+	.view-cursos
+		.view-header, .view-content
+			font-size: 1.2rem
+		.view-header
+			padding-bottom: 0
+			a
+				color: $font_color_1
+		.item-list
+			> ul 
+				padding: 0
+				width: 100%
+				display: table
+				> li
+					float: left
+					width: 32%
+					margin: 15px 0 0
+					border-radius: 5px
+					background: $bg_color_2
+					&:nth-child(3n+2)
+						margin: 15px 2% 0
+					.field-name-title
+						border-radius: 5px 5px 0 0
+						a
+							color: white
+					.field-name-body
+						font-size: 1.1rem
+						padding: 10px
+						border: 3px solid $bg_color_2
+						border-top: 0
+						height: 200px
+						background: white
+					.wrapper-precio
+						span
+							float: left
+						div
+							float: left
+					h2
+						a
+							color: $font_color_1
+							padding: 3px 10px
+					.field-name-node-link
+						background: $bg_color_2
+						border-radius: 0 0 5px 5px
+						&:hover
+							background: $bg_color_1
+							transition: 0.2s ease-in
+						a
+							font-size: 1.2rem
+							color: white
+							font-weight: bold
+							line-height: 100%
+							display: block
+							text-align: right
+							padding: 3px 10px 7px 10px
+							&:hover
+								text-decoration: none
+					.field-name-field-curso-imagen
+						background: $bg_color_2
+						img
+							border: 3px solid $bg_color_2	
+							display: block
+							border-radius: 10px
+//NODO
+.node-type-cursos
+	#content
+		.group-left
+			width: 35%
+		.group-right
+			width: 63%
+			float: right
+			font-size: 1.2rem
+			.field-name-body
+				margin: 0 0 20px
+			.field-name-field-curso-num-clases,	.field-name-field-curso-modalidad, .field-name-field-curso-precio
+				float: left
+				clear: left
+				font-weight: bold
+				font-size: 1.5rem
+				> div
+					float: left
+					font-size: 1.2rem
+					width: 150px
+					font-weight: normal
+					margin: 4px 0 0
+			.field-name-field-curso-paquete
+				float: left
+				width: 100%
+				.label-above
+					color: $font_color_1
+					font-weight: bold
+					font-size: 1.4rem
+					display: inline-block
+					margin: 0 0 5px
+					width: 100%
+				.field-collection-item-field-curso-paquete
+					border: 3px solid $bg_color_2
+					border-radius: 5px
+					width: 49%
+					padding: 3px 6px 3px 40px
+					position: relative
+					+box-sizing
+					float: left
+					margin: 0 0 10px
+					color: $font_color_1
+					font-weight: bold
+					.field-label
+						color: $font_color_2
+						font-weight: normal
+					&:before
+						content: "1"
+						position: absolute
+						top: -3px
+						left: -3px
+						background: $bg_color_2
+						color: white
+						font-size: 1.5rem
+						font-weight: bold
+						width: 30px
+						text-align: center
+						border-radius: 5px 0 5px
+					&:nth-child(2n+1)
+						margin: 0 0 10px 2%
+					&:nth-child(3):before
+						content: "2"
+					&:nth-child(4):before
+						content: "3"
+					&:nth-child(5):before
+						content: "4"
+					&:nth-child(6):before
+						content: "5"
+					&:nth-child(7):before
+						content: "6"
+			.field-name-te-interesa
+				width: 100%
+				display: inline-block
+				margin: 10px 0 0
+				.field-name-body
+					margin: 0 0 5px
+				.block-title
+					color: $font_color_1
+					font-weight: bold
+					font-size: 1.4rem
+				.webform-component-email
+					float: left
+					width: 60%
+					margin: 0
+					position: relative
+					label
+						margin: 0
+						position: absolute
+						top: 14px 
+						left: 12px
+						z-index: 100
+					input
+						width: 100%
+						display: inline-block
+						+box-sizing
+						padding: 11px 5px 13px 70px
+						margin: 2px 0 0
+						border-radius: 5px
+						border: 3px solid $bg_color_2
+						width: 100%
+				.form-actions
+					margin: 2px 0 0 2%
+					float: left
+					width: 38%
+					input
+						float: right
+						@include gradient_hover(#0c4baf, #093985)
+						border-radius: 5px 
+						font-weight: bold
+						@include box-sizing
+						padding: 10px 15px
+						text-transform: uppercase
+						cursor: pointer
+						font-size: 1.6rem
+						width: 100%
+						border: none
+						border: 2px solid #032355
+						text-shadow: 2px 1px 0px black, 0px 1px 0px black
+						color: white

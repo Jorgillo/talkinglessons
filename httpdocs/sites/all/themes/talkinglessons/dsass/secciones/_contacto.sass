@@ -1,0 +1,57 @@
+.page-node-5
+	#block-system-main
+		#webform-client-form-5
+			float: right
+			width: 67%
+			input, textarea
+				@include box-sizing
+				width: 280px
+				border-radius: 5px
+				padding: 3px 8px
+				background: white
+				border: 1px solid black
+				&[type="checkbox"]
+					width: auto
+					margin: 4px 8px 0 0
+					float: left
+			.form-item
+				float: left
+				clear: left
+				margin: 0 0 5px
+				&#webform-component-prueba-gratuita
+					input[type="radio"]
+						width: auto
+						float: left
+						margin: 4px 7px 0 0
+					label
+						float: left
+				&.webform-component-textarea
+					clear: none
+					float: right
+					textarea
+						height: 210px
+						padding: 8px 8px 35px 8px
+			.form-actions
+				clear: right
+				float: right
+				margin: -34px 0px 0 0
+				input:hover
+					background: $bg_color_1
+			input[type="submit"]
+				background: $bg_color_2
+				color: white
+				width: auto
+				font-size: 1.3rem
+				border-radius: 5px 0 5px 0
+			label
+				font-size: 1.1rem
+				color: $bg_color_1
+			.grippie
+				display: none
+		.node-webform
+			.field-name-body
+				float: left
+				width: 30%
+				font-size: 1.2rem
+				line-height: 120%
+				font-weight: normal

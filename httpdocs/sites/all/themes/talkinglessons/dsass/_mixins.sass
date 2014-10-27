@@ -1,0 +1,163 @@
+// Mixins
+// ------
+// Mixins allow you to define styles that can be re-used 
+// throughout the stylesheet without needing to resort to 
+// non-semantic classes like .float-left. Mixins can also
+// contain full CSS rules, and anything else allowed 
+// elsewhere in a Sass document. They can even take 
+// arguments which allows you to produce a wide variety 
+// of styles with very few mixins. 
+//
+// For complete documentation: 
+// http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins
+
+// Import variables for use in Mixins.
+@import _variables.sass
+@mixin reset
+html
+	font-size: 87.5%
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, active, hover, selected 
+	margin: 0
+	padding: 0
+	border: 0
+	outline: none
+	text-decoration: none
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+	list-style: none
+h1
+	font-size: 24px
+	font-size: 1.5rem
+h2
+	font-size: 22px
+	font-size: 1.375rem
+h3
+	font-size: 20px
+	font-size: 1.85rem
+h4
+	font-size: 18px
+	font-size: 1.6rem
+h5
+	font-size: 16px
+	font-size: 1rem
+h6
+	font-size: 14px
+	font-size: 0.875rem
+// Mixin de degradado con hover (mismo degradado invertido)
+@mixin gradient_hover($inicio, $fin)
+	background: $inicio
+	background: -moz-linear-gradient(top,  $inicio 0%, $fin 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$inicio), color-stop(100%,$fin))
+	background: -webkit-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: -o-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: -ms-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: linear-gradient(to bottom,  $inicio 0%,$fin 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$inicio', endColorstr='$fin',GradientType=0 )
+	&:hover
+		background: $fin
+		background: -moz-linear-gradient(top,  $fin 0%, $inicio 100%)
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$fin), color-stop(100%,$inicio))
+		background: -webkit-linear-gradient(top,  $fin 0%,$inicio 100%)
+		background: -o-linear-gradient(top,  $fin 0%,$inicio 100%)
+		background: -ms-linear-gradient(top,  $fin 0%,$inicio 100%)
+		background: linear-gradient(to bottom,  $fin 0%,$inicio 100%)
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$fin', endColorstr='$inicio',GradientType=0 )
+
+// Mixin de degradado sin hover
+@mixin gradient($inicio, $fin)
+	background: $inicio
+	background: -moz-linear-gradient(top,  $inicio 0%, $fin 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$inicio), color-stop(100%,$fin))
+	background: -webkit-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: -o-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: -ms-linear-gradient(top,  $inicio 0%,$fin 100%)
+	background: linear-gradient(to bottom,  $inicio 0%,$fin 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$inicio', endColorstr='$fin',GradientType=0 )
+
+@mixin sprites($x, $y, $color: transparent)
+	background: $color url("../images/sprites.png") no-repeat $x $y
+@mixin box-sizing
+	box-sizing: border-box
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+@mixin input_style
+	border: 1px solid #808080
+	border-radius: 5px
+	padding: 5px 8px
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+@mixin button_style
+	background: url("../images/sprite-mosca.png") no-repeat 4px -157px #6C901B
+	background-color: $bg_color_2
+	border: medium none
+	border-radius: 3px 3px 3px 3px
+	color: #FFFFFF
+	cursor: pointer
+	display: block
+	float: right
+	font-size: 14px
+	font-weight: bold
+	line-height: 1.2
+	margin: 0 5px
+	padding: 4px 10px 2px 25px
+	width: auto
+@mixin button_style_2
+	background: $bg_color_3
+	color: white
+	text-shadow: 1px 1px black
+	text-align: center
+	border: none
+	border-radius: 3px
+	padding: 4px 10px
+@mixin tags
+	&:before
+		position: absolute
+		content: " "
+		background: white
+		color: white
+		top: 8px
+		left: 6px
+		width: 4px
+		height: 4px
+		border-radius: 2px
+	a
+		background: #d6e9fa
+		border: 1px solid #90c2f7
+		color: #7e8c8d
+		border-radius: 0 2px 2px 0
+		border-top-left-radius: 5px 10px
+		border-bottom-left-radius: 5px 10px
+		display: inline-block
+		font-size: 0.7rem
+		padding: 0 5px 0 20px
+		&:hover
+			text-decoration: none
+@mixin white-block
+	background: white
+	box-shadow: 0 0 10px 0px black
+	border-radius: 5px
+@mixin header-style
+	width: 100%
+	padding: 10px 15px 10px 15px
+	background: $bg_color_1
+	color: white
+	border-radius: 5px 5px 0 0
+	text-shadow: 1px 1px 1px black
+@mixin blue-box
+	background: $bg_color_2
+	color: white
+	padding: 5px 20px

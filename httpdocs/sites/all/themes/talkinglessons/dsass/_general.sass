@@ -1,0 +1,378 @@
+body
+	background: transparent url("../images/main_bg_mini.jpg") no-repeat fixed center -325px
+	padding: 0 0 30px
+	color: #333
+#columns
+	margin: 0
+	background: rgba(255, 255, 255, 0.65)
+	padding: 20px 
+	width: 960px
+	min-width: 960px
+	#main-content
+		margin: 0
+	#main-content-header
+		@include header-style
+		#page-title
+			font-size: 2rem
+	#content
+		background: white
+		padding: 15px
+		width: 100%
+		display: inline-block
+		+box-sizing
+.block, .node
+	margin: 0
+#header
+	display: table
+	width: 960px
+	background: white
+	box-shadow: 0px 1px 10px 0px black
+	#branding
+		float: left
+		margin: 0 0 0 2%
+		width: 23%
+	.region-header
+		float: left
+		width: 75%
+	#logo
+		padding: 10px 0 0
+	#site-slogan
+		margin: -10px 0 0
+.block-inner
+	margin: 0
+body.front
+	#main-content
+		#content
+			background: transparent
+			padding: 0
+.region-header
+	float: left
+#block-skype-status-button
+	float: right
+	width: 260px
+	margin: -5px 15px 4px 0
+	h2
+		font-size: 1.2rem
+		text-align: right
+	.block-content
+		float: right
+#block-views-banner-block
+	float: left
+	clear: left
+	margin: 0 0 5px
+	position: relative
+	width: 100%
+	height: 308px
+	border: 1px solid black 
+	overflow: hidden
+	border-radius: 5px 
+	.field-name-title, .field-name-body
+		position: absolute
+		top: 0
+		left: 0
+		z-index: 255
+		color: white
+		padding: 5px 10px
+		max-width: 100%
+		font-size: 1.5rem
+		background: rgba( 9, 57, 133, 0.65)
+		h2
+			font-size: 2.0rem
+	.field-name-body
+		top: inherit
+		bottom: 0
+	.field-name-title
+		width: auto
+	.field-name-field-image
+		img
+			display: block
+			width: 100%
+#block-sharethis-sharethis-block
+	clear: right
+	float: right
+	margin: 0 15px 0 0
+#block-system-main-menu
+	float: left
+	font-size: 1rem
+	margin: 77px 0 0 10px
+	li
+		list-style: none
+		float: left
+		margin: 0 0 0 10px
+		a
+			color: black
+			font-size: 1.3rem
+			font-weight: bold
+			padding: 0 5px
+			display: block
+			border-radius: 3px 
+			&:hover
+				color: white
+				background: $bg_color_2
+				text-decoration: none
+		&.active-trail
+			a
+				color: white
+				background: $bg_color_2
+				border-radius: 3px
+#block-block-4
+	@include white-block
+	float: left
+	width: 50% 
+	margin: 12px 0 0
+	h2
+		@include header-style
+	.differences
+		height: 258px
+		font-size: 1.3rem
+		ul
+			margin: 10px 18px
+			li
+				margin: 20px 0 0
+				@include sprites(2px, -376px)
+				padding: 19px 0 19px 83px
+				&:first-child
+					@include sprites(2px, -501px)
+				&:last-child
+					@include sprites(2px, -242px)
+					padding-top: 9px
+#block-block-1
+	float: left
+	width: 100%
+	margin: 20px 0 0
+	box-shadow: 0 0 8px 0 black
+	border-radius: 10px
+	h1 
+		display: none
+	.page_info 
+		h2
+			width: 100%
+			line-height: 110%
+			display: inline-block
+			font-size: 1.3rem
+			margin: 0 0 10px
+			padding: 20px 15px 19px 55px
+			background: $bg_color_1 url("../images/sprites.png") no-repeat 9px 7px
+			color: white
+		> ul
+			display: table
+			width: 100%
+			li
+				float: left
+				width: 33%
+				background: white
+				@include box-sizing
+				height: 270px
+				p
+					padding: 0 15px 15px
+					font-size: 1rem
+				&:first-child
+					border-radius: 10px 0 0 10px
+					h2	
+				&:nth-child(2)
+					width: 34%
+					h2
+						background-position: 9px -65px
+						padding: 20px 15px 19px 55px
+				&:nth-child(3)
+					border-radius: 0 10px 10px 0
+					h2
+						background-position: 11px -135px
+						padding-left: 55px
+#block-block-2
+	width: 250px
+	margin: 10px 0 0
+	float: right
+	clear: right
+	ul.links
+		width: 100%
+		padding: 0
+		display: table
+		> li
+			width: 49px
+			display: inline-block
+			> a
+				display: block
+				> img
+					width: 100%
+					height: auto
+					display: block
+#block-user-login
+	float: right
+	width: 250px
+	margin: 10px 0 0
+	h2
+		display: none
+	.form-item
+		float: left
+		margin: 0 5px
+		&:first-child
+			margin-left: 0
+		input
+			line-height: 10px
+			height: 10px
+			padding: 2px
+	input[type="submit"]
+		float: right
+		color: white
+		margin: 4px 18px 0 0
+		padding: 1px 4px
+		text-align: center
+		background: $bg_color_1
+		border-radius: 3px
+		border: 1px solid #888
+	.links
+		float: left
+		margin: 4px 0 0
+		a
+			color: $bg_color_1
+#messages
+	display: none
+#block-block-3, #block-block-6
+	float: left
+	@include white-block
+	width: 410px
+	margin: 20px 0
+	.block-title
+		@include header-style
+	.content
+		@include box-sizing
+		padding: 15px
+		img
+			float: left
+			display: block
+			margin: 0 5px 0 0
+#block-block-6
+	width: 274px
+	margin: 20px 0 0 20px
+	height: 238px
+	.skype, .hangout
+		padding: 15px 0 15px 70px
+		background: transparent url("../images/skype_logo.png") no-repeat left top
+		margin: 13px 0 13px 10px 
+		font-size: 1.4rem
+		color: $font_color_1
+		font-weight: bold
+	.hangout
+		background-image: url("../images/hangouts-logo.png")
+#block-views-opinions-block
+	@include box-sizing
+	@include white-block
+	float: left
+	width: 625px
+	margin: 20px 0 0
+	.views_slideshow_cycle_teaser_section_opinions-block
+		min-height: 190px
+	.view-opinions
+		.view-header
+			@include header-style
+		.view-content
+			padding: 15px
+			max-height: 190px
+			.field-name-title
+				width: 100%
+			.field-name-field-cargo
+				font-size: 1rem
+			.field-name-field-opinion-body
+				margin: 5px 0 0
+	.group-left
+		width: 430px
+		padding: 5px 0 0
+	.group-right
+		width: 155px
+		margin: 0 0 0 10px
+		float: right
+		padding: 5px 0 0
+		img
+			border-radius: 5px	
+			box-shadow: 0px 0px 5px 1px #232323
+#block-webform-client-block-1
+	float: right
+	clear: right
+	margin: 12px 0 0
+	width: 48%
+	@include box-sizing
+	@include white-block 
+	.group-right
+		width: 61%
+	.group-left
+		width: 35%
+		margin: 0 4% 0 0
+	.node
+		position: relative
+		padding: 20px
+		height: 279px
+		&:before
+			content: " "
+			background: transparent url("../images/skype_logo.png") no-repeat center top
+			width: 150px
+			height: 150px
+			position: absolute
+			top: 50px
+			left: -83px
+			z-index: 100
+			display: none
+	.field-name-body
+		width: 100%
+		display: inline-block
+		font-size: 1.2rem
+		line-height: 145%
+		margin: 0 0 5px
+		a
+			color: $bg_color_2
+	h2
+		font-size: 1.375rem
+		text-transform: uppercase
+		@include header-style
+	.webform-client-form
+		width: 100%
+		display: inline-block
+		margin: 5px 0 0
+	input[type="text"]
+		width: 100%
+		@include box-sizing
+		border-radius: 5px
+		border: 1px solid black
+		padding: 5px 10px
+		font-size: 1rem
+		margin: 5px 0 0
+	input[type="submit"]
+		color: white
+		@include gradient_hover(#0c4baf, #093985)
+		border-radius: 5px 
+		font-weight: bold
+		padding: 10px 15px
+		text-transform: uppercase
+		cursor: pointer
+		font-size: 1.6rem
+		width: 100%
+		clear: right
+		border: none
+		margin: 10px 0 0
+		border: 2px solid #032355
+		text-shadow: 2px 1px 0px black, 0px 1px 0px black
+	.form-actions
+		margin: 0
+	.form-item
+		margin: 0
+//footer
+#footer
+	background: $bg_color_1
+	color: white
+	padding: 20px
+	font-size: 1rem
+	#block-block-5
+		float: left
+		font-weight: bold
+	h2
+		display: none
+	#block-multiblock-1
+		float: right
+	ul.menu
+		li
+			float: left
+			list-style: none
+			font-weight: bold
+			margin: 0 0 0 10px
+			a
+				color: white
