@@ -1,6 +1,9 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000317}}
 html {
-  font-size: 87.5%; }
+  font-size: 87.5%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000319}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,103 +25,153 @@ time, mark, audio, video, active, hover, selected {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  list-style: none; }
+  list-style: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000341}}
 h1 {
   font-size: 24px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000344}}
 h2 {
   font-size: 22px;
-  font-size: 1.375rem; }
+  font-size: 1.375rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000347}}
 h3 {
   font-size: 20px;
-  font-size: 1.85rem; }
+  font-size: 1.85rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000350}}
 h4 {
   font-size: 18px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000353}}
 h5 {
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000356}}
 h6 {
   font-size: 14px;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\000031}}
 body {
   background: transparent url("../images/main_bg_mini.jpg") no-repeat fixed center -325px;
   padding: 0 0 30px;
-  color: #333333; }
+  color: #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\000035}}
 #columns {
   margin: 0;
   background: rgba(255, 255, 255, 0.65);
   padding: 20px;
   width: 960px;
-  min-width: 960px; }
-  #columns #main-content {
-    margin: 0; }
-  #columns #main-content-header {
-    width: 100%;
-    padding: 10px 15px 10px 15px;
-    background: #ed1719;
-    color: white;
-    border-radius: 5px 5px 0 0;
-    text-shadow: 1px 1px 1px black; }
-    #columns #main-content-header #page-title {
-      font-size: 2rem; }
-  #columns #content {
-    background: white;
-    padding: 15px;
-    width: 100%;
-    display: inline-block;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box; }
+  min-width: 960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000311}}
+#columns #main-content {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000313}}
+#columns #main-content-header {
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background: #ed1719;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000315}}
+#columns #main-content-header #page-title {
+  font-size: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000317}}
+#columns #content {
+  background: white;
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000323}}
 .block, .node {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000325}}
 #header {
   display: table;
   width: 960px;
   background: white;
-  box-shadow: 0px 1px 10px 0px black; }
-  #header #branding {
-    float: left;
-    margin: 0 0 0 2%;
-    width: 23%; }
-  #header .region-header {
-    float: left;
-    width: 75%; }
-  #header #logo {
-    padding: 10px 0 0; }
-  #header #site-slogan {
-    margin: -10px 0 0; }
+  box-shadow: 0px 1px 10px 0px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000330}}
+#header #branding {
+  float: left;
+  margin: 0 0 0 2%;
+  width: 23%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000334}}
+#header .region-header {
+  float: left;
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000337}}
+#header #logo {
+  padding: 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000339}}
+#header #site-slogan {
+  margin: -10px 0 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000341}}
 .block-inner {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000345}}
 body.front #main-content #content {
   background: transparent;
-  padding: 0; }
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000348}}
 .region-header {
-  float: left; }
+  float: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000350}}
 #block-skype-status-button {
   float: right;
   width: 260px;
-  margin: -5px 15px 4px 0; }
-  #block-skype-status-button h2 {
-    font-size: 1.2rem;
-    text-align: right; }
-  #block-skype-status-button .block-content {
-    float: right; }
+  margin: -5px 15px 4px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000354}}
+#block-skype-status-button h2 {
+  font-size: 1.2rem;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000357}}
+#block-skype-status-button .block-content {
+  float: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000359}}
 #block-views-banner-block {
   float: left;
   clear: left;
@@ -128,220 +181,322 @@ body.front #main-content #content {
   height: 308px;
   border: 1px solid black;
   overflow: hidden;
-  border-radius: 5px; }
-  #block-views-banner-block .field-name-title, #block-views-banner-block .field-name-body {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 255;
-    color: white;
-    padding: 5px 10px;
-    max-width: 100%;
-    font-size: 1.5rem;
-    background: rgba(9, 57, 133, 0.65); }
-    #block-views-banner-block .field-name-title h2, #block-views-banner-block .field-name-body h2 {
-      font-size: 2rem; }
-  #block-views-banner-block .field-name-body {
-    top: inherit;
-    bottom: 0; }
-  #block-views-banner-block .field-name-title {
-    width: auto; }
-  #block-views-banner-block .field-name-field-image img {
-    display: block;
-    width: 100%; }
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000369}}
+#block-views-banner-block .field-name-title, #block-views-banner-block .field-name-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 255;
+  color: white;
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 1.5rem;
+  background: rgba(9, 57, 133, 0.65);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000379}}
+#block-views-banner-block .field-name-title h2, #block-views-banner-block .field-name-body h2 {
+  font-size: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000381}}
+#block-views-banner-block .field-name-body {
+  top: inherit;
+  bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000384}}
+#block-views-banner-block .field-name-title {
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000387}}
+#block-views-banner-block .field-name-field-image img {
+  display: block;
+  width: 100%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000390}}
 #block-sharethis-sharethis-block {
   clear: right;
   float: right;
-  margin: 0 15px 0 0; }
+  margin: 0 15px 0 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000394}}
 #block-system-main-menu {
   float: left;
   font-size: 1rem;
-  margin: 77px 0 0 10px; }
-  #block-system-main-menu li {
-    list-style: none;
-    float: left;
-    margin: 0 0 0 10px; }
-    #block-system-main-menu li a {
-      color: black;
-      font-size: 1.3rem;
-      font-weight: bold;
-      padding: 0 5px;
-      display: block;
-      border-radius: 3px; }
-      #block-system-main-menu li a:hover {
-        color: white;
-        background: #093985;
-        text-decoration: none; }
-    #block-system-main-menu li.active-trail a {
-      color: white;
-      background: #093985;
-      border-radius: 3px; }
+  margin: 77px 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\0000398}}
+#block-system-main-menu li {
+  list-style: none;
+  float: left;
+  margin: 0 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003102}}
+#block-system-main-menu li a {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0 5px;
+  display: block;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003109}}
+#block-system-main-menu li a:hover {
+  color: white;
+  background: #093985;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003114}}
+#block-system-main-menu li.active-trail a {
+  color: white;
+  background: #093985;
+  border-radius: 3px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003118}}
 #block-block-4 {
   background: white;
   box-shadow: 0 0 10px 0px black;
   border-radius: 5px;
   float: left;
   width: 50%;
-  margin: 12px 0 0; }
-  #block-block-4 h2 {
-    width: 100%;
-    padding: 10px 15px 10px 15px;
-    background: #ed1719;
-    color: white;
-    border-radius: 5px 5px 0 0;
-    text-shadow: 1px 1px 1px black; }
-  #block-block-4 .differences {
-    height: 258px;
-    font-size: 1.3rem; }
-    #block-block-4 .differences ul {
-      margin: 10px 18px; }
-      #block-block-4 .differences ul li {
-        margin: 20px 0 0;
-        background: transparent url("../images/sprites.png") no-repeat 2px -376px;
-        padding: 19px 0 19px 83px; }
-        #block-block-4 .differences ul li:first-child {
-          background: transparent url("../images/sprites.png") no-repeat 2px -501px; }
-        #block-block-4 .differences ul li:last-child {
-          background: transparent url("../images/sprites.png") no-repeat 2px -242px;
-          padding-top: 9px; }
+  margin: 12px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003123}}
+#block-block-4 h2 {
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background: #ed1719;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003125}}
+#block-block-4 .differences {
+  height: 258px;
+  font-size: 1.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003128}}
+#block-block-4 .differences ul {
+  margin: 10px 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003130}}
+#block-block-4 .differences ul li {
+  margin: 20px 0 0;
+  background: transparent url("../images/sprites.png") no-repeat 2px -376px;
+  padding: 19px 0 19px 83px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003134}}
+#block-block-4 .differences ul li:first-child {
+  background: transparent url("../images/sprites.png") no-repeat 2px -501px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003136}}
+#block-block-4 .differences ul li:last-child {
+  background: transparent url("../images/sprites.png") no-repeat 2px -242px;
+  padding-top: 9px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003139}}
 #block-block-1 {
   float: left;
   width: 100%;
   margin: 20px 0 0;
   box-shadow: 0 0 8px 0 black;
-  border-radius: 10px; }
-  #block-block-1 h1 {
-    display: none; }
-  #block-block-1 .page_info h2 {
-    width: 100%;
-    line-height: 110%;
-    display: inline-block;
-    font-size: 1.3rem;
-    margin: 0 0 10px;
-    padding: 20px 15px 19px 55px;
-    background: #ed1719 url("../images/sprites.png") no-repeat 9px 7px;
-    color: white; }
-  #block-block-1 .page_info > ul {
-    display: table;
-    width: 100%; }
-    #block-block-1 .page_info > ul li {
-      float: left;
-      width: 33%;
-      background: white;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      height: 270px; }
-      #block-block-1 .page_info > ul li p {
-        padding: 0 15px 15px;
-        font-size: 1rem; }
-      #block-block-1 .page_info > ul li:first-child {
-        border-radius: 10px 0 0 10px; }
-      #block-block-1 .page_info > ul li:nth-child(2) {
-        width: 34%; }
-        #block-block-1 .page_info > ul li:nth-child(2) h2 {
-          background-position: 9px -65px;
-          padding: 20px 15px 19px 55px; }
-      #block-block-1 .page_info > ul li:nth-child(3) {
-        border-radius: 0 10px 10px 0; }
-        #block-block-1 .page_info > ul li:nth-child(3) h2 {
-          background-position: 11px -135px;
-          padding-left: 55px; }
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003145}}
+#block-block-1 h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003148}}
+#block-block-1 .page_info h2 {
+  width: 100%;
+  line-height: 110%;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 0 10px;
+  padding: 20px 15px 19px 55px;
+  background: #ed1719 url("../images/sprites.png") no-repeat 9px 7px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003157}}
+#block-block-1 .page_info > ul {
+  display: table;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003160}}
+#block-block-1 .page_info > ul li {
+  float: left;
+  width: 33%;
+  background: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 270px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003166}}
+#block-block-1 .page_info > ul li p {
+  padding: 0 15px 15px;
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003169}}
+#block-block-1 .page_info > ul li:first-child {
+  border-radius: 10px 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003171}}
+#block-block-1 .page_info > ul li:nth-child(2) {
+  width: 34%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003173}}
+#block-block-1 .page_info > ul li:nth-child(2) h2 {
+  background-position: 9px -65px;
+  padding: 20px 15px 19px 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003176}}
+#block-block-1 .page_info > ul li:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003178}}
+#block-block-1 .page_info > ul li:nth-child(3) h2 {
+  background-position: 11px -135px;
+  padding-left: 55px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003181}}
 #block-block-2 {
   width: 250px;
   margin: 10px 0 0;
   float: right;
-  clear: right; }
-  #block-block-2 ul.links {
-    width: 100%;
-    padding: 0;
-    display: table; }
-    #block-block-2 ul.links > li {
-      width: 49px;
-      display: inline-block; }
-      #block-block-2 ul.links > li > a {
-        display: block; }
-        #block-block-2 ul.links > li > a > img {
-          width: 100%;
-          height: auto;
-          display: block; }
+  clear: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003186}}
+#block-block-2 ul.links {
+  width: 100%;
+  padding: 0;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003190}}
+#block-block-2 ul.links > li {
+  width: 49px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003193}}
+#block-block-2 ul.links > li > a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003195}}
+#block-block-2 ul.links > li > a > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003199}}
 #block-user-login {
   float: right;
   width: 250px;
-  margin: 10px 0 0; }
-  #block-user-login h2 {
-    display: none; }
-  #block-user-login .form-item {
-    float: left;
-    margin: 0 5px; }
-    #block-user-login .form-item:first-child {
-      margin-left: 0; }
-    #block-user-login .form-item input {
-      line-height: 10px;
-      height: 10px;
-      padding: 2px; }
-  #block-user-login input[type="submit"] {
-    float: right;
-    color: white;
-    margin: 4px 18px 0 0;
-    padding: 1px 4px;
-    text-align: center;
-    background: #ed1719;
-    border-radius: 3px;
-    border: 1px solid #888888; }
-  #block-user-login .links {
-    float: left;
-    margin: 4px 0 0; }
-    #block-user-login .links a {
-      color: #ed1719; }
+  margin: 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003203}}
+#block-user-login h2 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003205}}
+#block-user-login .form-item {
+  float: left;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003208}}
+#block-user-login .form-item:first-child {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003210}}
+#block-user-login .form-item input {
+  line-height: 10px;
+  height: 10px;
+  padding: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003214}}
+#block-user-login input[type="submit"] {
+  float: right;
+  color: white;
+  margin: 4px 18px 0 0;
+  padding: 1px 4px;
+  text-align: center;
+  background: #ed1719;
+  border-radius: 3px;
+  border: 1px solid #888;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003223}}
+#block-user-login .links {
+  float: left;
+  margin: 4px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003226}}
+#block-user-login .links a {
+  color: #ed1719;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003228}}
 #messages {
-  display: none; }
+  display: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003230}}
 #block-block-3, #block-block-6 {
   float: left;
   background: white;
   box-shadow: 0 0 10px 0px black;
   border-radius: 5px;
   width: 410px;
-  margin: 20px 0; }
-  #block-block-3 .block-title, #block-block-6 .block-title {
-    width: 100%;
-    padding: 10px 15px 10px 15px;
-    background: #ed1719;
-    color: white;
-    border-radius: 5px 5px 0 0;
-    text-shadow: 1px 1px 1px black; }
-  #block-block-3 .content, #block-block-6 .content {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    padding: 15px; }
-    #block-block-3 .content img, #block-block-6 .content img {
-      float: left;
-      display: block;
-      margin: 0 5px 0 0; }
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003235}}
+#block-block-3 .block-title, #block-block-6 .block-title {
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background: #ed1719;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003237}}
+#block-block-3 .content, #block-block-6 .content {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003240}}
+#block-block-3 .content img, #block-block-6 .content img {
+  float: left;
+  display: block;
+  margin: 0 5px 0 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003244}}
 #block-block-6 {
   width: 274px;
   margin: 20px 0 0 20px;
-  height: 238px; }
-  #block-block-6 .skype, #block-block-6 .hangout {
-    padding: 15px 0 15px 70px;
-    background: transparent url("../images/skype_logo.png") no-repeat left top;
-    margin: 13px 0 13px 10px;
-    font-size: 1.4rem;
-    color: #ed1719;
-    font-weight: bold; }
-  #block-block-6 .hangout {
-    background-image: url("../images/hangouts-logo.png"); }
+  height: 238px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003248}}
+#block-block-6 .skype, #block-block-6 .hangout {
+  padding: 15px 0 15px 70px;
+  background: transparent url("../images/skype_logo.png") no-repeat left top;
+  margin: 13px 0 13px 10px;
+  font-size: 1.4rem;
+  color: #ed1719;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003255}}
+#block-block-6 .hangout {
+  background-image: url("../images/hangouts-logo.png");
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003257}}
 #block-views-opinions-block {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -351,37 +506,57 @@ body.front #main-content #content {
   border-radius: 5px;
   float: left;
   width: 625px;
-  margin: 20px 0 0; }
-  #block-views-opinions-block .views_slideshow_cycle_teaser_section_opinions-block {
-    min-height: 190px; }
-  #block-views-opinions-block .view-opinions .view-header {
-    width: 100%;
-    padding: 10px 15px 10px 15px;
-    background: #ed1719;
-    color: white;
-    border-radius: 5px 5px 0 0;
-    text-shadow: 1px 1px 1px black; }
-  #block-views-opinions-block .view-opinions .view-content {
-    padding: 15px;
-    max-height: 190px; }
-    #block-views-opinions-block .view-opinions .view-content .field-name-title {
-      width: 100%; }
-    #block-views-opinions-block .view-opinions .view-content .field-name-field-cargo {
-      font-size: 1rem; }
-    #block-views-opinions-block .view-opinions .view-content .field-name-field-opinion-body {
-      margin: 5px 0 0; }
-  #block-views-opinions-block .group-left {
-    width: 430px;
-    padding: 5px 0 0; }
-  #block-views-opinions-block .group-right {
-    width: 155px;
-    margin: 0 0 0 10px;
-    float: right;
-    padding: 5px 0 0; }
-    #block-views-opinions-block .group-right img {
-      border-radius: 5px;
-      box-shadow: 0px 0px 5px 1px #232323; }
+  margin: 20px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003263}}
+#block-views-opinions-block .views_slideshow_cycle_teaser_section_opinions-block {
+  min-height: 190px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003266}}
+#block-views-opinions-block .view-opinions .view-header {
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background: #ed1719;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003268}}
+#block-views-opinions-block .view-opinions .view-content {
+  padding: 15px;
+  max-height: 190px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003271}}
+#block-views-opinions-block .view-opinions .view-content .field-name-title {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003273}}
+#block-views-opinions-block .view-opinions .view-content .field-name-field-cargo {
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003275}}
+#block-views-opinions-block .view-opinions .view-content .field-name-field-opinion-body {
+  margin: 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003277}}
+#block-views-opinions-block .group-left {
+  width: 430px;
+  padding: 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003280}}
+#block-views-opinions-block .group-right {
+  width: 155px;
+  margin: 0 0 0 10px;
+  float: right;
+  padding: 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003285}}
+#block-views-opinions-block .group-right img {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #232323;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003288}}
 #block-webform-client-block-1 {
   float: right;
   clear: right;
@@ -392,491 +567,722 @@ body.front #main-content #content {
   -webkit-box-sizing: border-box;
   background: white;
   box-shadow: 0 0 10px 0px black;
-  border-radius: 5px; }
-  #block-webform-client-block-1 .group-right {
-    width: 61%; }
-  #block-webform-client-block-1 .group-left {
-    width: 35%;
-    margin: 0 4% 0 0; }
-  #block-webform-client-block-1 .node {
-    position: relative;
-    padding: 20px;
-    height: 279px; }
-    #block-webform-client-block-1 .node:before {
-      content: " ";
-      background: transparent url("../images/skype_logo.png") no-repeat center top;
-      width: 150px;
-      height: 150px;
-      position: absolute;
-      top: 50px;
-      left: -83px;
-      z-index: 100;
-      display: none; }
-  #block-webform-client-block-1 .field-name-body {
-    width: 100%;
-    display: inline-block;
-    font-size: 1.2rem;
-    line-height: 145%;
-    margin: 0 0 5px; }
-    #block-webform-client-block-1 .field-name-body a {
-      color: #093985; }
-  #block-webform-client-block-1 h2 {
-    font-size: 1.375rem;
-    text-transform: uppercase;
-    width: 100%;
-    padding: 10px 15px 10px 15px;
-    background: #ed1719;
-    color: white;
-    border-radius: 5px 5px 0 0;
-    text-shadow: 1px 1px 1px black; }
-  #block-webform-client-block-1 .webform-client-form {
-    width: 100%;
-    display: inline-block;
-    margin: 5px 0 0; }
-  #block-webform-client-block-1 input[type="text"] {
-    width: 100%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px 10px;
-    font-size: 1rem;
-    margin: 5px 0 0; }
-  #block-webform-client-block-1 input[type="submit"] {
-    color: white;
-    background: #0c4baf;
-    background: -moz-linear-gradient(top, #0c4baf 0%, #093985 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0c4baf), color-stop(100%, #093985));
-    background: -webkit-linear-gradient(top, #0c4baf 0%, #093985 100%);
-    background: -o-linear-gradient(top, #0c4baf 0%, #093985 100%);
-    background: -ms-linear-gradient(top, #0c4baf 0%, #093985 100%);
-    background: linear-gradient(to bottom, #0c4baf 0%, #093985 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$inicio', endColorstr='$fin',GradientType=0 );
-    border-radius: 5px;
-    font-weight: bold;
-    padding: 10px 15px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-size: 1.6rem;
-    width: 100%;
-    clear: right;
-    border: none;
-    margin: 10px 0 0;
-    border: 2px solid #032355;
-    text-shadow: 2px 1px 0px black, 0px 1px 0px black; }
-    #block-webform-client-block-1 input[type="submit"]:hover {
-      background: #093985;
-      background: -moz-linear-gradient(top, #093985 0%, #0c4baf 100%);
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #093985), color-stop(100%, #0c4baf));
-      background: -webkit-linear-gradient(top, #093985 0%, #0c4baf 100%);
-      background: -o-linear-gradient(top, #093985 0%, #0c4baf 100%);
-      background: -ms-linear-gradient(top, #093985 0%, #0c4baf 100%);
-      background: linear-gradient(to bottom, #093985 0%, #0c4baf 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$fin', endColorstr='$inicio',GradientType=0 ); }
-  #block-webform-client-block-1 .form-actions {
-    margin: 0; }
-  #block-webform-client-block-1 .form-item {
-    margin: 0; }
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003295}}
+#block-webform-client-block-1 .group-right {
+  width: 61%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003297}}
+#block-webform-client-block-1 .group-left {
+  width: 35%;
+  margin: 0 4% 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003300}}
+#block-webform-client-block-1 .node {
+  position: relative;
+  padding: 20px;
+  height: 279px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003304}}
+#block-webform-client-block-1 .node:before {
+  content: " ";
+  background: transparent url("../images/skype_logo.png") no-repeat center top;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: -83px;
+  z-index: 100;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003314}}
+#block-webform-client-block-1 .field-name-body {
+  width: 100%;
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 145%;
+  margin: 0 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003320}}
+#block-webform-client-block-1 .field-name-body a {
+  color: #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003322}}
+#block-webform-client-block-1 h2 {
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background: #ed1719;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003326}}
+#block-webform-client-block-1 .webform-client-form {
+  width: 100%;
+  display: inline-block;
+  margin: 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003330}}
+#block-webform-client-block-1 input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin: 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003338}}
+#block-webform-client-block-1 input[type="submit"] {
+  color: white;
+  background: #0c4baf;
+  background: -moz-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0c4baf), color-stop(100%, #093985));
+  background: -webkit-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -o-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -ms-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: linear-gradient(to bottom, #0c4baf 0%, #093985 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$inicio', endColorstr='$fin',GradientType=0 );
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.6rem;
+  width: 100%;
+  clear: right;
+  border: none;
+  margin: 10px 0 0;
+  border: 2px solid #032355;
+  text-shadow: 2px 1px 0px black, 0px 1px 0px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000369}}
+#block-webform-client-block-1 input[type="submit"]:hover {
+  background: #093985;
+  background: -moz-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #093985), color-stop(100%, #0c4baf));
+  background: -webkit-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -o-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -ms-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: linear-gradient(to bottom, #093985 0%, #0c4baf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$fin', endColorstr='$inicio',GradientType=0 );
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003353}}
+#block-webform-client-block-1 .form-actions {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003355}}
+#block-webform-client-block-1 .form-item {
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003358}}
 #footer {
   background: #ed1719;
   color: white;
   padding: 20px;
-  font-size: 1rem; }
-  #footer #block-block-5 {
-    float: left;
-    font-weight: bold; }
-  #footer h2 {
-    display: none; }
-  #footer #block-multiblock-1 {
-    float: right; }
-  #footer ul.menu li {
-    float: left;
-    list-style: none;
-    font-weight: bold;
-    margin: 0 0 0 10px; }
-    #footer ul.menu li a {
-      color: white; }
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003363}}
+#footer #block-block-5 {
+  float: left;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003366}}
+#footer h2 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003368}}
+#footer #block-multiblock-1 {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003371}}
+#footer ul.menu li {
+  float: left;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_general\.sass}line{font-family:\00003376}}
+#footer ul.menu li a {
+  color: white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\000033}}
 .page-node-5 #block-system-main #webform-client-form-5 {
   float: right;
-  width: 67%; }
-  .page-node-5 #block-system-main #webform-client-form-5 input, .page-node-5 #block-system-main #webform-client-form-5 textarea {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    width: 280px;
-    border-radius: 5px;
-    padding: 3px 8px;
-    background: white;
-    border: 1px solid black; }
-    .page-node-5 #block-system-main #webform-client-form-5 input[type="checkbox"], .page-node-5 #block-system-main #webform-client-form-5 textarea[type="checkbox"] {
-      width: auto;
-      margin: 4px 8px 0 0;
-      float: left; }
-  .page-node-5 #block-system-main #webform-client-form-5 .form-item {
-    float: left;
-    clear: left;
-    margin: 0 0 5px; }
-    .page-node-5 #block-system-main #webform-client-form-5 .form-item#webform-component-prueba-gratuita input[type="radio"] {
-      width: auto;
-      float: left;
-      margin: 4px 7px 0 0; }
-    .page-node-5 #block-system-main #webform-client-form-5 .form-item#webform-component-prueba-gratuita label {
-      float: left; }
-    .page-node-5 #block-system-main #webform-client-form-5 .form-item.webform-component-textarea {
-      clear: none;
-      float: right; }
-      .page-node-5 #block-system-main #webform-client-form-5 .form-item.webform-component-textarea textarea {
-        height: 210px;
-        padding: 8px 8px 35px 8px; }
-  .page-node-5 #block-system-main #webform-client-form-5 .form-actions {
-    clear: right;
-    float: right;
-    margin: -34px 0px 0 0; }
-    .page-node-5 #block-system-main #webform-client-form-5 .form-actions input:hover {
-      background: #ed1719; }
-  .page-node-5 #block-system-main #webform-client-form-5 input[type="submit"] {
-    background: #093985;
-    color: white;
-    width: auto;
-    font-size: 1.3rem;
-    border-radius: 5px 0 5px 0; }
-  .page-node-5 #block-system-main #webform-client-form-5 label {
-    font-size: 1.1rem;
-    color: #ed1719; }
-  .page-node-5 #block-system-main #webform-client-form-5 .grippie {
-    display: none; }
+  width: 67%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\000036}}
+.page-node-5 #block-system-main #webform-client-form-5 input, .page-node-5 #block-system-main #webform-client-form-5 textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 280px;
+  border-radius: 5px;
+  padding: 3px 8px;
+  background: white;
+  border: 1px solid black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000313}}
+.page-node-5 #block-system-main #webform-client-form-5 input[type="checkbox"], .page-node-5 #block-system-main #webform-client-form-5 textarea[type="checkbox"] {
+  width: auto;
+  margin: 4px 8px 0 0;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000317}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-item {
+  float: left;
+  clear: left;
+  margin: 0 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000322}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-item#webform-component-prueba-gratuita input[type="radio"] {
+  width: auto;
+  float: left;
+  margin: 4px 7px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000326}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-item#webform-component-prueba-gratuita label {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000328}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-item.webform-component-textarea {
+  clear: none;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000331}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-item.webform-component-textarea textarea {
+  height: 210px;
+  padding: 8px 8px 35px 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000334}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-actions {
+  clear: right;
+  float: right;
+  margin: -34px 0px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000338}}
+.page-node-5 #block-system-main #webform-client-form-5 .form-actions input:hover {
+  background: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000340}}
+.page-node-5 #block-system-main #webform-client-form-5 input[type="submit"] {
+  background: #093985;
+  color: white;
+  width: auto;
+  font-size: 1.3rem;
+  border-radius: 5px 0 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000346}}
+.page-node-5 #block-system-main #webform-client-form-5 label {
+  font-size: 1.1rem;
+  color: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000349}}
+.page-node-5 #block-system-main #webform-client-form-5 .grippie {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_contacto\.sass}line{font-family:\0000352}}
 .page-node-5 #block-system-main .node-webform .field-name-body {
   float: left;
   width: 30%;
   font-size: 1.2rem;
   line-height: 120%;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\000033}}
 .page-node-4 #columns #node-4, .page-cursos #columns #node-4, .page-material #columns #node-4 {
-  font-size: 1rem; }
-  .page-node-4 #columns #node-4 strong, .page-cursos #columns #node-4 strong, .page-material #columns #node-4 strong {
-    display: inline-block;
-    font-size: 1.5rem;
-    margin: 20px 0 3px;
-    color: #ed1719; }
-    .page-node-4 #columns #node-4 strong:first-child, .page-cursos #columns #node-4 strong:first-child, .page-material #columns #node-4 strong:first-child {
-      margin-top: 0; }
-  .page-node-4 #columns #node-4 ul, .page-cursos #columns #node-4 ul, .page-material #columns #node-4 ul {
-    width: 100%;
-    display: inline-block; }
-    .page-node-4 #columns #node-4 ul li, .page-cursos #columns #node-4 ul li, .page-material #columns #node-4 ul li {
-      width: 100%;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      padding: 0 0 0 10px; }
-  .page-node-4 #columns #node-4 p, .page-cursos #columns #node-4 p, .page-material #columns #node-4 p {
-    width: 100%;
-    margin: 0 0 3px;
-    padding: 0 0 0 5px; }
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\000035}}
+.page-node-4 #columns #node-4 strong, .page-cursos #columns #node-4 strong, .page-material #columns #node-4 strong {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 20px 0 3px;
+  color: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\0000310}}
+.page-node-4 #columns #node-4 strong:first-child, .page-cursos #columns #node-4 strong:first-child, .page-material #columns #node-4 strong:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\0000312}}
+.page-node-4 #columns #node-4 ul, .page-cursos #columns #node-4 ul, .page-material #columns #node-4 ul {
+  width: 100%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\0000315}}
+.page-node-4 #columns #node-4 ul li, .page-cursos #columns #node-4 ul li, .page-material #columns #node-4 ul li {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_metodo\.sass}line{font-family:\0000319}}
+.page-node-4 #columns #node-4 p, .page-cursos #columns #node-4 p, .page-material #columns #node-4 p {
+  width: 100%;
+  margin: 0 0 3px;
+  padding: 0 0 0 5px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\000033}}
 .page-cursos .view-cursos .view-header, .page-cursos .view-cursos .view-content {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\000035}}
 .page-cursos .view-cursos .view-header {
-  padding-bottom: 0; }
-  .page-cursos .view-cursos .view-header a {
-    color: #ed1719; }
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\000037}}
+.page-cursos .view-cursos .view-header a {
+  color: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000310}}
 .page-cursos .view-cursos .item-list > ul {
   padding: 0;
   width: 100%;
-  display: table; }
-  .page-cursos .view-cursos .item-list > ul > li {
-    float: left;
-    width: 32%;
-    margin: 15px 0 0;
-    border-radius: 5px;
-    background: #093985; }
-    .page-cursos .view-cursos .item-list > ul > li:nth-child(3n+2) {
-      margin: 15px 2% 0; }
-    .page-cursos .view-cursos .item-list > ul > li .field-name-title {
-      border-radius: 5px 5px 0 0; }
-      .page-cursos .view-cursos .item-list > ul > li .field-name-title a {
-        color: white; }
-    .page-cursos .view-cursos .item-list > ul > li .field-name-body {
-      font-size: 1.1rem;
-      padding: 10px;
-      border: 3px solid #093985;
-      border-top: 0;
-      height: 200px;
-      background: white; }
-    .page-cursos .view-cursos .item-list > ul > li .wrapper-precio span {
-      float: left; }
-    .page-cursos .view-cursos .item-list > ul > li .wrapper-precio div {
-      float: left; }
-    .page-cursos .view-cursos .item-list > ul > li h2 a {
-      color: #ed1719;
-      padding: 3px 10px; }
-    .page-cursos .view-cursos .item-list > ul > li .field-name-node-link {
-      background: #093985;
-      border-radius: 0 0 5px 5px; }
-      .page-cursos .view-cursos .item-list > ul > li .field-name-node-link:hover {
-        background: #ed1719;
-        transition: 0.2s ease-in; }
-      .page-cursos .view-cursos .item-list > ul > li .field-name-node-link a {
-        font-size: 1.2rem;
-        color: white;
-        font-weight: bold;
-        line-height: 100%;
-        display: block;
-        text-align: right;
-        padding: 3px 10px 7px 10px; }
-        .page-cursos .view-cursos .item-list > ul > li .field-name-node-link a:hover {
-          text-decoration: none; }
-    .page-cursos .view-cursos .item-list > ul > li .field-name-field-curso-imagen {
-      background: #093985; }
-      .page-cursos .view-cursos .item-list > ul > li .field-name-field-curso-imagen img {
-        border: 3px solid #093985;
-        display: block;
-        border-radius: 10px; }
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000314}}
+.page-cursos .view-cursos .item-list > ul > li {
+  float: left;
+  width: 32%;
+  margin: 15px 0 0;
+  border-radius: 5px;
+  background: #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000320}}
+.page-cursos .view-cursos .item-list > ul > li:nth-child(3n+2) {
+  margin: 15px 2% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000322}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-title {
+  border-radius: 5px 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000324}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-title a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000326}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-body {
+  font-size: 1.1rem;
+  padding: 10px;
+  border: 3px solid #093985;
+  border-top: 0;
+  height: 200px;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000334}}
+.page-cursos .view-cursos .item-list > ul > li .wrapper-precio span {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000336}}
+.page-cursos .view-cursos .item-list > ul > li .wrapper-precio div {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000339}}
+.page-cursos .view-cursos .item-list > ul > li h2 a {
+  color: #ed1719;
+  padding: 3px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000342}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-node-link {
+  background: #093985;
+  border-radius: 0 0 5px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000345}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-node-link:hover {
+  background: #ed1719;
+  transition: 0.2s ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000348}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-node-link a {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  line-height: 100%;
+  display: block;
+  text-align: right;
+  padding: 3px 10px 7px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000356}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-node-link a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000358}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-field-curso-imagen {
+  background: #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000360}}
+.page-cursos .view-cursos .item-list > ul > li .field-name-field-curso-imagen img {
+  border: 3px solid #093985;
+  display: block;
+  border-radius: 10px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000367}}
 .node-type-cursos #content .group-left {
-  width: 35%; }
+  width: 35%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000369}}
 .node-type-cursos #content .group-right {
   width: 63%;
   float: right;
-  font-size: 1.2rem; }
-  .node-type-cursos #content .group-right .field-name-body {
-    margin: 0 0 20px; }
-  .node-type-cursos #content .group-right .field-name-field-curso-num-clases, .node-type-cursos #content .group-right .field-name-field-curso-modalidad, .node-type-cursos #content .group-right .field-name-field-curso-precio {
-    float: left;
-    clear: left;
-    font-weight: bold;
-    font-size: 1.5rem; }
-    .node-type-cursos #content .group-right .field-name-field-curso-num-clases > div, .node-type-cursos #content .group-right .field-name-field-curso-modalidad > div, .node-type-cursos #content .group-right .field-name-field-curso-precio > div {
-      float: left;
-      font-size: 1.2rem;
-      width: 150px;
-      font-weight: normal;
-      margin: 4px 0 0; }
-  .node-type-cursos #content .group-right .field-name-field-curso-paquete {
-    float: left;
-    width: 100%; }
-    .node-type-cursos #content .group-right .field-name-field-curso-paquete .label-above {
-      color: #ed1719;
-      font-weight: bold;
-      font-size: 1.4rem;
-      display: inline-block;
-      margin: 0 0 5px;
-      width: 100%; }
-    .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete {
-      border: 3px solid #093985;
-      border-radius: 5px;
-      width: 49%;
-      padding: 3px 6px 3px 40px;
-      position: relative;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      float: left;
-      margin: 0 0 10px;
-      color: #ed1719;
-      font-weight: bold; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete .field-label {
-        color: #093985;
-        font-weight: normal; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:before {
-        content: "1";
-        position: absolute;
-        top: -3px;
-        left: -3px;
-        background: #093985;
-        color: white;
-        font-size: 1.5rem;
-        font-weight: bold;
-        width: 30px;
-        text-align: center;
-        border-radius: 5px 0 5px; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(2n+1) {
-        margin: 0 0 10px 2%; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(3):before {
-        content: "2"; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(4):before {
-        content: "3"; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(5):before {
-        content: "4"; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(6):before {
-        content: "5"; }
-      .node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(7):before {
-        content: "6"; }
-  .node-type-cursos #content .group-right .field-name-te-interesa {
-    width: 100%;
-    display: inline-block;
-    margin: 10px 0 0; }
-    .node-type-cursos #content .group-right .field-name-te-interesa .field-name-body {
-      margin: 0 0 5px; }
-    .node-type-cursos #content .group-right .field-name-te-interesa .block-title {
-      color: #ed1719;
-      font-weight: bold;
-      font-size: 1.4rem; }
-    .node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email {
-      float: left;
-      width: 60%;
-      margin: 0;
-      position: relative; }
-      .node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email label {
-        margin: 0;
-        position: absolute;
-        top: 14px;
-        left: 12px;
-        z-index: 100; }
-      .node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email input {
-        width: 100%;
-        display: inline-block;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        padding: 11px 5px 13px 70px;
-        margin: 2px 0 0;
-        border-radius: 5px;
-        border: 3px solid #093985;
-        width: 100%; }
-    .node-type-cursos #content .group-right .field-name-te-interesa .form-actions {
-      margin: 2px 0 0 2%;
-      float: left;
-      width: 38%; }
-      .node-type-cursos #content .group-right .field-name-te-interesa .form-actions input {
-        float: right;
-        background: #0c4baf;
-        background: -moz-linear-gradient(top, #0c4baf 0%, #093985 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0c4baf), color-stop(100%, #093985));
-        background: -webkit-linear-gradient(top, #0c4baf 0%, #093985 100%);
-        background: -o-linear-gradient(top, #0c4baf 0%, #093985 100%);
-        background: -ms-linear-gradient(top, #0c4baf 0%, #093985 100%);
-        background: linear-gradient(to bottom, #0c4baf 0%, #093985 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$inicio', endColorstr='$fin',GradientType=0 );
-        border-radius: 5px;
-        font-weight: bold;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        padding: 10px 15px;
-        text-transform: uppercase;
-        cursor: pointer;
-        font-size: 1.6rem;
-        width: 100%;
-        border: none;
-        border: 2px solid #032355;
-        text-shadow: 2px 1px 0px black, 0px 1px 0px black;
-        color: white; }
-        .node-type-cursos #content .group-right .field-name-te-interesa .form-actions input:hover {
-          background: #093985;
-          background: -moz-linear-gradient(top, #093985 0%, #0c4baf 100%);
-          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #093985), color-stop(100%, #0c4baf));
-          background: -webkit-linear-gradient(top, #093985 0%, #0c4baf 100%);
-          background: -o-linear-gradient(top, #093985 0%, #0c4baf 100%);
-          background: -ms-linear-gradient(top, #093985 0%, #0c4baf 100%);
-          background: linear-gradient(to bottom, #093985 0%, #0c4baf 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$fin', endColorstr='$inicio',GradientType=0 ); }
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000373}}
+.node-type-cursos #content .group-right .field-name-body {
+  margin: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000375}}
+.node-type-cursos #content .group-right .field-name-field-curso-num-clases, .node-type-cursos #content .group-right .field-name-field-curso-modalidad, .node-type-cursos #content .group-right .field-name-field-curso-precio {
+  float: left;
+  clear: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000380}}
+.node-type-cursos #content .group-right .field-name-field-curso-num-clases > div, .node-type-cursos #content .group-right .field-name-field-curso-modalidad > div, .node-type-cursos #content .group-right .field-name-field-curso-precio > div {
+  float: left;
+  font-size: 1.2rem;
+  width: 150px;
+  font-weight: normal;
+  margin: 4px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000386}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete {
+  float: left;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000389}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .label-above {
+  color: #ed1719;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 0 0 5px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\0000396}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete {
+  border: 3px solid #093985;
+  border-radius: 5px;
+  width: 49%;
+  padding: 3px 6px 3px 40px;
+  position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  float: left;
+  margin: 0 0 10px;
+  color: #ed1719;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003107}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete .field-label {
+  color: #093985;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003110}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:before {
+  content: "1";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  background: #093985;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003122}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(2n+1) {
+  margin: 0 0 10px 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003124}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(3):before {
+  content: "2";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003126}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(4):before {
+  content: "3";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003128}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(5):before {
+  content: "4";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003130}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(6):before {
+  content: "5";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003132}}
+.node-type-cursos #content .group-right .field-name-field-curso-paquete .field-collection-item-field-curso-paquete:nth-child(7):before {
+  content: "6";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003134}}
+.node-type-cursos #content .group-right .field-name-te-interesa {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003138}}
+.node-type-cursos #content .group-right .field-name-te-interesa .field-name-body {
+  margin: 0 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003140}}
+.node-type-cursos #content .group-right .field-name-te-interesa .block-title {
+  color: #ed1719;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003144}}
+.node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email {
+  float: left;
+  width: 60%;
+  margin: 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003149}}
+.node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email label {
+  margin: 0;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  z-index: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003155}}
+.node-type-cursos #content .group-right .field-name-te-interesa .webform-component-email input {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 11px 5px 13px 70px;
+  margin: 2px 0 0;
+  border-radius: 5px;
+  border: 3px solid #093985;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003164}}
+.node-type-cursos #content .group-right .field-name-te-interesa .form-actions {
+  margin: 2px 0 0 2%;
+  float: left;
+  width: 38%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_cursos\.sass}line{font-family:\00003168}}
+.node-type-cursos #content .group-right .field-name-te-interesa .form-actions input {
+  float: right;
+  background: #0c4baf;
+  background: -moz-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0c4baf), color-stop(100%, #093985));
+  background: -webkit-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -o-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: -ms-linear-gradient(top, #0c4baf 0%, #093985 100%);
+  background: linear-gradient(to bottom, #0c4baf 0%, #093985 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$inicio', endColorstr='$fin',GradientType=0 );
+  border-radius: 5px;
+  font-weight: bold;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.6rem;
+  width: 100%;
+  border: none;
+  border: 2px solid #032355;
+  text-shadow: 2px 1px 0px black, 0px 1px 0px black;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/_mixins\.sass}line{font-family:\0000369}}
+.node-type-cursos #content .group-right .field-name-te-interesa .form-actions input:hover {
+  background: #093985;
+  background: -moz-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #093985), color-stop(100%, #0c4baf));
+  background: -webkit-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -o-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: -ms-linear-gradient(top, #093985 0%, #0c4baf 100%);
+  background: linear-gradient(to bottom, #093985 0%, #0c4baf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$fin', endColorstr='$inicio',GradientType=0 );
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\000033}}
 .page-material #main-content .view-material {
   width: 75%;
-  float: left; }
-  .page-material #main-content .view-material .view-header {
-    font-size: 1.2rem; }
-  .page-material #main-content .view-material .view-content {
-    margin: 20px 0 0; }
-  .page-material #main-content .view-material .views-row {
-    margin: 0 0 15px; }
-  .page-material #main-content .view-material .group-left {
-    width: 35%; }
-    .page-material #main-content .view-material .group-left iframe {
-      width: 100%;
-      display: inline-block;
-      height: auto; }
-  .page-material #main-content .view-material .group-right {
-    width: 63%;
-    margin: 0 0 0 2%; }
-    .page-material #main-content .view-material .group-right .field-name-body {
-      font-size: 1.2rem; }
-    .page-material #main-content .view-material .group-right h2 a {
-      color: #ed1719;
-      font-size: 1.3rem; }
-    .page-material #main-content .view-material .group-right .field-name-field-tags {
-      width: 100%;
-      display: inline-block;
-      font-size: 1.2rem; }
-      .page-material #main-content .view-material .group-right .field-name-field-tags .label-above {
-        color: #093985; }
-      .page-material #main-content .view-material .group-right .field-name-field-tags a {
-        color: #ed1719;
-        float: left;
-        margin: 0 5px 0 0; }
-  .page-material #main-content .view-material .pager {
-    width: auto;
-    display: table;
-    margin: 0 auto;
-    border: 2px solid #ed1719;
-    border-radius: 5px; }
-    .page-material #main-content .view-material .pager li {
-      float: left;
-      color: #ed1719;
-      font-size: 1.1rem;
-      padding: 0; }
-      .page-material #main-content .view-material .pager li:hover {
-        background: #ed1719; }
-      .page-material #main-content .view-material .pager li a {
-        color: #ed1719;
-        display: block;
-        padding: 2px 10px; }
-        .page-material #main-content .view-material .pager li a:hover {
-          text-decoration: none;
-          color: white; }
-      .page-material #main-content .view-material .pager li.pager-current {
-        background: #ed1719;
-        color: white;
-        padding: 2px 10px; }
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\000036}}
+.page-material #main-content .view-material .view-header {
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\000038}}
+.page-material #main-content .view-material .view-content {
+  margin: 20px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000310}}
+.page-material #main-content .view-material .views-row {
+  margin: 0 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000312}}
+.page-material #main-content .view-material .group-left {
+  width: 35%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000314}}
+.page-material #main-content .view-material .group-left iframe {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000318}}
+.page-material #main-content .view-material .group-right {
+  width: 63%;
+  margin: 0 0 0 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000321}}
+.page-material #main-content .view-material .group-right .field-name-body {
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000324}}
+.page-material #main-content .view-material .group-right h2 a {
+  color: #ed1719;
+  font-size: 1.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000327}}
+.page-material #main-content .view-material .group-right .field-name-field-tags {
+  width: 100%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000331}}
+.page-material #main-content .view-material .group-right .field-name-field-tags .label-above {
+  color: #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000333}}
+.page-material #main-content .view-material .group-right .field-name-field-tags a {
+  color: #ed1719;
+  float: left;
+  margin: 0 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000337}}
+.page-material #main-content .view-material .pager {
+  width: auto;
+  display: table;
+  margin: 0 auto;
+  border: 2px solid #ed1719;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000343}}
+.page-material #main-content .view-material .pager li {
+  float: left;
+  color: #ed1719;
+  font-size: 1.1rem;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000348}}
+.page-material #main-content .view-material .pager li:hover {
+  background: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000350}}
+.page-material #main-content .view-material .pager li a {
+  color: #ed1719;
+  display: block;
+  padding: 2px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000354}}
+.page-material #main-content .view-material .pager li a:hover {
+  text-decoration: none;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000357}}
+.page-material #main-content .view-material .pager li.pager-current {
+  background: #ed1719;
+  color: white;
+  padding: 2px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000363}}
 .page-material #main-content #block-views-latest-material-block {
   float: right;
   width: 25%;
   margin: 0 -15px 0 1%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-  .page-material #main-content #block-views-latest-material-block .block-title {
-    color: white;
-    background: #093985;
-    padding: 5px 20px; }
-  .page-material #main-content #block-views-latest-material-block .view-content .views-row {
-    padding: 5px 20px;
-    border-bottom: 1px solid #093985; }
-    .page-material #main-content #block-views-latest-material-block .view-content .views-row a {
-      color: #ed1719;
-      display: block;
-      font-size: 1rem;
-      font-weight: bold; }
+  -webkit-box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000368}}
+.page-material #main-content #block-views-latest-material-block .block-title {
+  color: white;
+  background: #093985;
+  padding: 5px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000373}}
+.page-material #main-content #block-views-latest-material-block .view-content .views-row {
+  padding: 5px 20px;
+  border-bottom: 1px solid #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000376}}
+.page-material #main-content #block-views-latest-material-block .view-content .views-row a {
+  color: #ed1719;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000384}}
 .node-type-articulo #columns .group-left {
-  width: 45%; }
-  .node-type-articulo #columns .group-left iframe, .node-type-articulo #columns .group-left img {
-    width: 100%; }
-  .node-type-articulo #columns .group-left img {
-    height: auto; }
+  width: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000386}}
+.node-type-articulo #columns .group-left iframe, .node-type-articulo #columns .group-left img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000388}}
+.node-type-articulo #columns .group-left img {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000390}}
 .node-type-articulo #columns .group-right {
   width: 53%;
   float: right;
-  font-size: 1.2rem; }
-  .node-type-articulo #columns .group-right .field-name-body {
-    margin: 0 0 20px; }
-  .node-type-articulo #columns .group-right .tags-wrapper {
-    width: 100%;
-    display: inline-block; }
-    .node-type-articulo #columns .group-right .tags-wrapper .label-above {
-      color: #093985; }
-    .node-type-articulo #columns .group-right .tags-wrapper ul {
-      padding: 0;
-      margin: 0; }
-      .node-type-articulo #columns .group-right .tags-wrapper ul li {
-        float: left;
-        margin: 0 10px 0 0; }
-        .node-type-articulo #columns .group-right .tags-wrapper ul li a {
-          color: #ed1719; }
-  .node-type-articulo #columns .group-right .field-name-field-tags .label-above {
-    color: #093985; }
+  font-size: 1.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000394}}
+.node-type-articulo #columns .group-right .field-name-body {
+  margin: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000396}}
+.node-type-articulo #columns .group-right .tags-wrapper {
+  width: 100%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\0000399}}
+.node-type-articulo #columns .group-right .tags-wrapper .label-above {
+  color: #093985;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\00003101}}
+.node-type-articulo #columns .group-right .tags-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\00003104}}
+.node-type-articulo #columns .group-right .tags-wrapper ul li {
+  float: left;
+  margin: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\00003107}}
+.node-type-articulo #columns .group-right .tags-wrapper ul li a {
+  color: #ed1719;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/talkinglessons\/httpdocs\/sites\/all\/themes\/talkinglessons\/dsass\/secciones\/_material\.sass}line{font-family:\00003110}}
+.node-type-articulo #columns .group-right .field-name-field-tags .label-above {
+  color: #093985;
+}
